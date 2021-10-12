@@ -1,0 +1,23 @@
+{
+  "name": "m6-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "purgecss --css css/styles.css --content index.html -o css/reducido.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Herian369/m6-bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Herian369/m6-bootstrap/issues"
+  },
+  "homepage": "https://github.com/Herian369/m6-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
